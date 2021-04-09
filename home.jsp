@@ -49,29 +49,8 @@ window.onload = function() {
 		method: 'POST',
 		datatype: 'JSON',
 		success: function(result) {
-			console.log(result);
-			console.log('결과');
 			console.dir(result);
 			grid.resetData(result);
-			grid.resetData(eval(result));
-			
-// 			var i = result.data;
-// 			console.log('i = ' + i);
-// 			var result = data.json;
-// 			console.log(result);
-			
-// 			$.each(result, function(idx,val) {
-// 				console.log(idx + "" + val.name);
-// 			});
-
-// 			$.each(data, function(idx, val) {
-// 		$(data).each(function(idx, val){
-// 				console.log(idx);
-// 				console.log(val.idx);
-// // 				console.log(idx + " " + val.name);
-// 			});
-			
-		
 		},
 		error: function(xhr, error) {
 			console.log(xhr);

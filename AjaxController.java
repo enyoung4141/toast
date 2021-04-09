@@ -41,7 +41,6 @@ public class AjaxController {
 		list.add(map);
 		list.add(map);
 		list.add(map);
-		System.out.println("리스트는 있는겨? "+ list);
 		return list;
 	}
 	
@@ -56,7 +55,6 @@ public class AjaxController {
 		list.add(data);
 		data = new Data("j", "k", "l", "1.1.1.4", "W");
 		list.add(data);
-		System.out.println("리스트는 있는겨?2 "+ list);
 		return list;
 		
 	}
